@@ -17,12 +17,12 @@ public class PlayerMovement : MonoBehaviour
     public LayerMask whatIsGround;
     private int extraJumps;
     public int extraJumpsValue;
-    //public Transform poz;
+    public Transform poz;
 
-    //public Transform getPozition()
-    //{
-    //    return poz;
-    //}
+    public Transform getPozition()
+    {
+        return poz;
+    }
 
     void Start()
     {
